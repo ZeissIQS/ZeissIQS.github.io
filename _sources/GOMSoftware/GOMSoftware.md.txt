@@ -1,0 +1,7 @@
+GOM Software
+============
+
+# Python API
+
+* [Adding workspaces to packages](howtos/adding_workspaces_to_packages/adding_workspaces_to_packages.md)
+* [Using Visual Studio Code as an add-on editor](howtos/using_vscode_editor/using_vscode_editor.md)
