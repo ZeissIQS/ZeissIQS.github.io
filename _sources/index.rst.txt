@@ -1,4 +1,4 @@
-Zeiss Industry Quality Solutions
+ZEISS Industry Quality Solutions
 ================================
 
 .. note::
