@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Using Visual Studio Code as an add-on editor &mdash; Zeiss Industry Quality Solutions  documentation</title>
+  <title>Using Visual Studio Code as an add-on editor &mdash; ZEISS Industry Quality Solutioins  documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -18,8 +18,7 @@
         <script src="../../_static/doctools.js"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="prev" title="Adding workspaces to add-ons" href="../adding_workspaces_to_packages/adding_workspaces_to_packages.html" /> 
+    <link rel="search" title="Search" href="../../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -27,7 +26,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../../index.html" class="icon icon-home"> Zeiss Industry Quality Solutions
+            <a href="../../index.html" class="icon icon-home"> ZEISS Industry Quality Solutioins
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
@@ -37,63 +36,62 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../adding_workspaces_to_packages/adding_workspaces_to_packages.html">Adding workspaces to add-ons</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Using Visual Studio Code as an add-on editor</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#setup">Setup</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#installation">Installation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#connecting">Connecting</a></li>
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Using Visual Studio Code as an add-on editor</a><ul>
+<li><a class="reference internal" href="#setup">Setup</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#connecting">Connecting</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#editing">Editing</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#creating-scripts">Creating scripts</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#executing-scripts">Executing scripts</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#recording-commands">Recording commands</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#inserting-elements">Inserting elements</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#inserting-keywords">Inserting keywords</a></li>
+<li><a class="reference internal" href="#editing">Editing</a><ul>
+<li><a class="reference internal" href="#creating-scripts">Creating scripts</a></li>
+<li><a class="reference internal" href="#executing-scripts">Executing scripts</a></li>
+<li><a class="reference internal" href="#recording-commands">Recording commands</a></li>
+<li><a class="reference internal" href="#inserting-elements">Inserting elements</a></li>
+<li><a class="reference internal" href="#inserting-keywords">Inserting keywords</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#debugging">Debugging</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#start-debugging">Start debugging</a></li>
+<li><a class="reference internal" href="#debugging">Debugging</a><ul>
+<li><a class="reference internal" href="#start-debugging">Start debugging</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#user-defined-script-dialogs">User defined script dialogs</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#create-new-script-dialog">Create new script dialog</a></li>
+<li><a class="reference internal" href="#user-defined-script-dialogs">User defined script dialogs</a><ul>
+<li><a class="reference internal" href="#create-new-script-dialog">Create new script dialog</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#faq">FAQ</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#configuration">Configuration</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#how-do-i-set-a-shortcut-to-toggle-the-recording-mode">How do I set a shortcut to toggle the recording mode ?</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#how-do-i-set-shortcuts-for-starting-the-current-script-in-the-gom-host">How do I set shortcuts for starting the current script in the GOM host ?</a></li>
+<li><a class="reference internal" href="#faq">FAQ</a><ul>
+<li><a class="reference internal" href="#configuration">Configuration</a><ul>
+<li><a class="reference internal" href="#how-do-i-set-a-shortcut-to-toggle-the-recording-mode">How do I set a shortcut to toggle the recording mode ?</a></li>
+<li><a class="reference internal" href="#how-do-i-set-shortcuts-for-starting-the-current-script-in-the-gom-host">How do I set shortcuts for starting the current script in the GOM host ?</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#script-editing">Script editing</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#can-i-use-local-workspaces-from-disk-instead-of-the-application-script-database-for-my-project">Can I use local workspaces from disk instead of the application script database for my project ?</a></li>
+<li><a class="reference internal" href="#script-editing">Script editing</a><ul>
+<li><a class="reference internal" href="#can-i-use-local-workspaces-from-disk-instead-of-the-application-script-database-for-my-project">Can I use local workspaces from disk instead of the application script database for my project ?</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#dialog-editing">Dialog editing</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#i-cannot-edit-all-aspects-of-the-user-defined-script-dialogs-in-visual-studio-code">I cannot edit all aspects of the user defined script dialogs in visual studio code ?</a></li>
+<li><a class="reference internal" href="#dialog-editing">Dialog editing</a><ul>
+<li><a class="reference internal" href="#i-cannot-edit-all-aspects-of-the-user-defined-script-dialogs-in-visual-studio-code">I cannot edit all aspects of the user defined script dialogs in visual studio code ?</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#troubleshooting">Troubleshooting</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#when-using-intellisense-completion-the-keyword-list-stalls">When using IntelliSense completion, the keyword list stalls</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#when-starting-both-the-application-and-a-script-from-within-visual-studio-code-crashes-can-happen">When starting both the application and a script from within Visual Studio Code, crashes can happen</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#troubleshooting">Troubleshooting</a><ul>
+<li><a class="reference internal" href="#when-using-intellisense-completion-the-keyword-list-stalls">When using IntelliSense completion, the keyword list stalls</a></li>
+<li><a class="reference internal" href="#when-starting-both-the-application-and-a-script-from-within-visual-studio-code-crashes-can-happen">When starting both the application and a script from within Visual Studio Code, crashes can happen</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-
+</li>
+</ul>
+</div>
         </div>
       </div>
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../../index.html">Zeiss Industry Quality Solutions</a>
+          <a href="../../index.html">ZEISS Industry Quality Solutioins</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -381,9 +379,7 @@
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../adding_workspaces_to_packages/adding_workspaces_to_packages.html" class="btn btn-neutral float-left" title="Adding workspaces to add-ons" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-    </div>
+          <footer>
 
   <hr/>
 

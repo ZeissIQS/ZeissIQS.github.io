@@ -1,9 +1,10 @@
-Documentation
-=============
+Zeiss Industry Quality Solutions
+================================
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents
+.. note::
+   Documentation for various ZEISS IQS related projects.
 
-   GOMSoftware/howtos/adding_workspaces_to_packages/adding_workspaces_to_packages
-   GOMSoftware/howtos/using_vscode_editor/using_vscode_editor
+GOM Software
+------------
+
+* `GOM Software Python API documentation <https://zeissiqs.github.io/gom-software-python-api>`_
