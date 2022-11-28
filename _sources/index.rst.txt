@@ -7,4 +7,4 @@ ZEISS Industry Quality Solutions
 GOM Software
 ------------
 
-* `GOM Software Python API documentation <https://zeissiqs.github.io/gom-software-python-api>`_
+* `GOM Software 2022 - Add-on documentation <https://zeissiqs.github.io/gom-software-python-api/2022>`_
