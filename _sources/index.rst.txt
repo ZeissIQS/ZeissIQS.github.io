@@ -1,10 +1,14 @@
+.. meta::   
+   :description: ZEISS INSPECT Software by ZEISS Industrial Quality Solutions
+   :keywords: Metrology, ZEISS INSPECT, GOM Inspect, Python API, GOM API, Scripting, Add-ons, How-tos, Examples, Specification, Documentation
+
 ZEISS Industrial Quality Solutions
 ==================================
 
 .. note::
    Documentation for various ZEISS Industrial Quality Solutions related projects.
 
-ZEISS INSPECT software
+ZEISS INSPECT Software
 ----------------------
 
 * `ZEISS INSPECT 2022 - Add-on documentation <https://zeissiqs.github.io/gom-software-python-api/2022/>`_
