@@ -1,5 +1,5 @@
 > [!CAUTION]
-> This repository has been copied to https://github.com/ZEISS/ZeissIQS.github.io and will eventually be deleted.
+> This repository has been copied to https://github.com/ZEISS/IQS/ and will eventually be deleted.
  
 # ZeissIQS.github.io
 
