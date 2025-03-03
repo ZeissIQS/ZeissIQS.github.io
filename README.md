@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This repository has been copied to https://github.com/ZEISS/ZeissIQS.github.io and will eventually be deleted.
+ 
 # ZeissIQS.github.io
 
 Intermediate documentation files generated from [ZeissIQS-pages](https://github.com/ZeissIQS/ZeissIQS-pages).
